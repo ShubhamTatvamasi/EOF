@@ -7,6 +7,21 @@ Hello World!
 EOF
 ```
 
+```yaml
+kubectl apply -f << EOF
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: nginx
+  name: nginx
+spec:
+  containers:
+  - image: nginx:apline
+    name: nginx
+EOF
+```
+
 save date to a `file` and send to `cat` command
 ```bash
 cat << EOF > file
