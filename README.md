@@ -17,7 +17,7 @@ metadata:
   name: nginx
 spec:
   containers:
-  - image: nginx:apline
+  - image: nginx:alpine
     name: nginx
 EOF
 ```
