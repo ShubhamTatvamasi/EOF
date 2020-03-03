@@ -8,7 +8,7 @@ EOF
 ```
 
 ```yaml
-kubectl apply -f << EOF
+cat << EOF | kubectl apply -f -
 apiVersion: v1
 kind: Pod
 metadata:
