@@ -12,8 +12,6 @@ cat << EOF | kubectl apply -f -
 apiVersion: v1
 kind: Pod
 metadata:
-  labels:
-    run: nginx
   name: nginx
 spec:
   containers:
