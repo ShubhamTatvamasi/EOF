@@ -6,6 +6,11 @@ cat << EOF
 Hello World!
 EOF
 ```
+```python
+python << EOF
+print("Hello World")
+EOF
+```
 
 ```yaml
 kubectl apply -f - << EOF
